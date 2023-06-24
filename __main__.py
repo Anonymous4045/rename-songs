@@ -49,6 +49,7 @@ def rename_files(directory) -> None:
                 shutil.move(file, new_file_path)
                 print(f"Renamed file to {new_filename_with_extension}\n")
 
+
 if __name__ == "__main__":
     print(WELCOME_MESSAGE)
     parser = argparse.ArgumentParser()
